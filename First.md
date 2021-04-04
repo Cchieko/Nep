@@ -1,5 +1,5 @@
-## Buuoj记录
-### 1.凯撒？替换？呵呵!
+# Buuoj记录
+## 1.凯撒？替换？呵呵!
 MTHJ{CUBCGXGUGXWREXIPOYAOEYFIGXWRXCHTKHFCOHCFDUCGTXZOHIXOEOWMEHZO}<br>
 注意：得到的 flag 请包上 flag{} 提交, flag{小写字母}
 
@@ -11,7 +11,7 @@ MTHJ{CUBCGXGUGXWREXIPOYAOEYFIGXWRXCHTKHFCOHCFDUCGTXZOHIXOEOWMEHZO}<br>
 注意提交格式，需转换为小写字母并删除空格。
 flag{substitutioncipherdecryptionisalwayseasyjustlikeapieceofcake}
 
-### 2..权限获得第一步
+## 2..权限获得第一步
 你猜这是什么东西，记得破解后把其中的密码给我。答案为非常规形式。 
 <br>注意：得到的 flag 请包上 flag{} 提交
 
@@ -23,20 +23,20 @@ flag{substitutioncipherdecryptionisalwayseasyjustlikeapieceofcake}
 
 ![](https://github.com/Cchieko/Nep/blob/main/images/2.2.png)
 
-### 3.robomunication
+## 3.robomunication
 打开音频文件，只有bi和bu的音，猜测用到摩斯密码。<br>
 整理得到：… . .-… .-… — .-- … .- - … … - … . -.- . -.-- … - … … -… — --- .–. -… . . .–.
 
 解码得到：HELLOWHATISTHEKEYITISBOOPBEEP
 flag{BOOPBEEP}
 
-###  4.Windows系统密码
+##  4.Windows系统密码
 
 ![](https://github.com/Cchieko/Nep/blob/main/images/3.1.png)
 
 MD5一个个解密，对ctf:1002:06af9108f2e1fecf144e2e8adef09efd:a7fcb22a88038f35a8f39d503e7f0062:::中的第二条32位字符数据进行MD5解密，得到flag{good-luck}.
 
-### 5.[BJDCTF 2nd]cat_flag
+## 5.[BJDCTF 2nd]cat_flag
 gif中两种小猫分别对应二进制数0和1，则下图可用二进制表示为
 01000010010010100100010001111011010011010010000101100001001100000111111001111101
 再将其转换为字符串得到BJD{M!a0~}.
@@ -44,7 +44,7 @@ gif中两种小猫分别对应二进制数0和1，则下图可用二进制表示
 ![](https://github.com/Cchieko/Nep/blob/main/images/4.1.png)
 
 
-### 6.[BJDCTF 2nd]燕言燕语-y1ng
+## 6.[BJDCTF 2nd]燕言燕语-y1ng
 题目：小燕子，穿花衣，年年春天来这里，我问燕子你为啥来，燕子说:
 79616E7A69205A4A517B78696C7A765F6971737375686F635F73757A6A677D2
 
@@ -52,7 +52,7 @@ gif中两种小猫分别对应二进制数0和1，则下图可用二进制表示
 
 猜测使用了维吉尼亚密码，将yanzi作为密钥进行解密得到BJD{yanzi_jiushige_shabi}
 
-### 7.传统知识+古典密码
+## 7.传统知识+古典密码
 
 根据六十甲子相关数表得到各个年份对应的数字，根据提示，一甲子为60年，每个数字再加上60，得到八个数字88 90 83 68 77 70 76 90，猜测为ASCII码，解码得到XZSDMFLZ
 
@@ -62,7 +62,7 @@ gif中两种小猫分别对应二进制数0和1，则下图可用二进制表示
 
 ![](https://github.com/Cchieko/Nep/blob/main/images/7.2.png)
 
-### 8.[GKCTF2020]小学生的密码学
+## 8.[GKCTF2020]小学生的密码学
 
 e(x)=11x+6(mod26)
 
@@ -76,7 +76,7 @@ e(x)=11x+6(mod26)
 
 flag为base64形式，转换一下得到flag{c29yY2VyeQ==}
 
-### 9.信息化时代的步伐
+## 9.信息化时代的步伐
 也许中国可以早早进入信息化时代，但是被清政府拒绝了。附件中是数十年后一位伟人说的话的密文。请翻译出明文(答案为一串中文！)
 注意：得到的 flag 请包上 flag{} 提交
 密文：606046152623600817831216121621196386
@@ -85,7 +85,7 @@ flag为base64形式，转换一下得到flag{c29yY2VyeQ==}
 
 用[中文电码工具](http://code.mcdvisa.com/)查询对应中文得到：计算机要从娃娃抓起
 
-### 10.[BJDCTF 2nd]灵能精通-y1ng
+## 10.[BJDCTF 2nd]灵能精通-y1ng
 身经百战的Y1ng已经达到崇高的武术境界，以自律克己来取代狂热者的战斗狂怒与传统的战斗形式。Y1ng所受的训练也进一步将他们的灵能强化到足以瓦解周遭的物质世界。借由集中这股力量，Y1ng能释放灵能能量风暴来摧毁敌人的心智、肉体与器械。
 
 给文件添加后缀.jpg,得到图片：
